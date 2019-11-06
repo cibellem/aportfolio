@@ -29,9 +29,13 @@ h1 {
     font-family: 'Overpass Mono', monospace;  
 }
 
-h1.projects {
+h2 , label{
+    font-family: 'Overpass Mono', monospace;  
 
-    padding-bottom:  20px;
+}
+
+p {
+    font-family:'Comfortaa', cursive;
 }
 
 .aboutMe{
@@ -46,9 +50,10 @@ h1.projects {
 
 }
 
-mark {
-    background-color: #FEA47F;
-}
+.projecth1 {
+    background-color: #F97F51;
+    padding: 10px;;
+} 
 .projectDiv {
 
    
@@ -56,8 +61,8 @@ mark {
     border-style: solid;
     border-width: 2px;
     border-bottom: 0;
+    letter-spacing: 1.5px;  
 }
-
 
 
  .pleasantlyRow , .weatherRow, .passdwordRow, .projectsRow {
@@ -87,6 +92,12 @@ mark {
     
  }
 
+ .contactDiv {
+
+    margin-bottom: 10x;
+        
+ }
+
  /* a.home, a.contact , a.project, a.exclamation {
      font-size: 20px;
      
@@ -96,16 +107,29 @@ mark {
  footer {
      text-align: right;     
      background-color:#F97F51;
-     padding:10px
+     padding:10px;
+     
      
  }
-  
+  .contactFooter {
+    position: fixed;
+    width: 100%;
+    text-align: right;     
+     background-color:#F97F51;
+     padding:10px;
+     bottom: 0;
+     
+     
+
+  }
+
  i {
     font-size: 35px;
     color: rgb(0, 68, 255);
     letter-spacing: 15px;
    
  }
+
  
 
    /* Small devices (landscape phones, 576px and up) */
@@ -113,6 +137,7 @@ mark {
 
     h1{
         font-size: 40px;
-        margin-top: 10; 
+        margin-top: 5px; 
+        margin-bottom: 15px;;
   }
 }
