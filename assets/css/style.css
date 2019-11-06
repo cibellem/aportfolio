@@ -1,0 +1,118 @@
+.navBar {
+  
+    background-color:white;
+    font-family: 'Overpass Mono', monospace;
+    letter-spacing: 2px;
+    
+   
+}
+
+/* .projectsNav {
+    
+} */
+
+.heyThere{
+    
+    background-color:white;
+    height: 50vh;
+    text-align: center;   
+    font-family: 'Overpass Mono', monospace;    
+  
+}
+
+
+
+h1 {
+    font-size: 55px;
+    display: inline-block;
+    margin-top: 70px;   
+    font-family: 'Overpass Mono', monospace;  
+}
+
+h1.projects {
+
+    padding-bottom:  20px;
+}
+
+.aboutMe{
+    font-family: 'Comfortaa', cursive;
+    background-color:#F97F51;
+   padding: 50px;
+    letter-spacing: 1.5px;    
+    text-align: justify;
+    margin-top: 5px;   
+    
+    
+
+}
+
+mark {
+    background-color: #FEA47F;
+}
+.projectDiv {
+
+   
+    font-family: 'Comfortaa', cursive;    
+    border-style: solid;
+    border-width: 2px;
+    border-bottom: 0;
+}
+
+
+
+ .pleasantlyRow , .weatherRow, .passdwordRow, .projectsRow {
+    
+    padding-bottom: 50px;    
+ }
+
+ .myPic {
+
+    height: 300px;
+    width: 300px;    
+    margin-top: 5px;
+    
+
+ } 
+ .projectDescription{
+
+    text-align: justify;
+    letter-spacing: 2px; 
+ }
+
+ .projectImg{
+    height: 400px;
+    width: 500px; 
+    box-shadow:5px 5px 20px 5px  grey;  
+    border-radius: 5px;
+    
+ }
+
+ /* a.home, a.contact , a.project, a.exclamation {
+     font-size: 20px;
+     
+    
+ } */
+
+ footer {
+     text-align: right;     
+     background-color:#F97F51;
+     padding:10px
+     
+ }
+  
+ i {
+    font-size: 35px;
+    color: rgb(0, 68, 255);
+    letter-spacing: 15px;
+   
+ }
+ 
+
+   /* Small devices (landscape phones, 576px and up) */
+ @media screen and (max-width: 576px) { 
+
+    h1{
+        font-size: 40px;
+        margin-top: 10; 
+  }
+}
