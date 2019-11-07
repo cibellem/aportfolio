@@ -3,13 +3,11 @@
     background-color:white;
     font-family: 'Overpass Mono', monospace;
     letter-spacing: 2px;
+    justify-content: space-around
     
    
 }
 
-/* .projectsNav {
-    
-} */
 
 .heyThere{
     
@@ -25,7 +23,7 @@
 h1 {
     font-size: 55px;
     display: inline-block;
-    margin-top: 70px;   
+    margin-top: 60px;   
     font-family: 'Overpass Mono', monospace;  
 }
 
@@ -41,10 +39,11 @@ p {
 .aboutMe{
     font-family: 'Comfortaa', cursive;
     background-color:#F97F51;
-   padding: 50px;
+   /* padding: 50px; */
     letter-spacing: 1.5px;    
     text-align: justify;
     margin-top: 5px;   
+    
     
     
 
@@ -73,8 +72,10 @@ p {
  .myPic {
 
     height: 300px;
-    width: 300px;    
-    margin-top: 5px;
+    width: 300px;     
+   
+     margin-top: 5px; 
+    
     
 
  } 
@@ -85,8 +86,10 @@ p {
  }
 
  .projectImg{
-    height: 400px;
-    width: 500px; 
+    /* height: 400px; */
+    width: 100%;
+    /* width: 500px;  */
+    height: auto;
     box-shadow:5px 5px 20px 5px  grey;  
     border-radius: 5px;
     
@@ -95,18 +98,14 @@ p {
  .contactDiv {
 
     margin-bottom: 10x;
+    align-content: center;
         
  }
 
- /* a.home, a.contact , a.project, a.exclamation {
-     font-size: 20px;
-     
-    
- } */
 
  footer {
      text-align: right;     
-     background-color:#F97F51;
+     background-color:white;
      padding:10px;
      
      
@@ -117,12 +116,34 @@ p {
     text-align: right;     
      background-color:#F97F51;
      padding:10px;
-     bottom: 0;
-     
-     
+     bottom: 0;    
+  }  
+.contactIcons{
+    color: black;
 
+}
+  
+  button {
+    background-color: #F97F51;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Overpass Mono', monospace; 
+    border-radius: 10px;
+    letter-spacing: 1px; 
+    box-shadow: 0 12px 16px
   }
 
+ 
+
+  button:hover {
+      
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24)
+  }
  i {
     font-size: 35px;
     color: rgb(0, 68, 255);
@@ -130,13 +151,41 @@ p {
    
  }
 
- 
+ @media screen and (max-width: 768px) { 
+
+    .myPic {
+
+    
+        height: auto;
+        width: 100%;
+        
+    
+     } 
+
+     .iconContactDiv {
+         display: none;
+     }
+
+    .projectImg{
+
+        width: 100%;
+  height: auto;
+    }
+
+ h2{
+
+    text-align: center;
+ }
+  
+
+}
+
 
    /* Small devices (landscape phones, 576px and up) */
  @media screen and (max-width: 576px) { 
 
     h1{
-        font-size: 40px;
+        font-size: 45px;
         margin-top: 5px; 
         margin-bottom: 15px;;
   }

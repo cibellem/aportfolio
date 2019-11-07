@@ -16,105 +16,61 @@
 </head>
 
 
+
+
 <body>
+    <nav class="navbar navbar-expand-md projectsNav navBar">
 
-    <body>
-        <nav class="navbar navbar-expand-md navBar">
-            <a class="navbar-brand" href="#">!!!</a>
-            <button class="navbar-toggler" type="button bg-dark" data-toggle="collapse"
-                data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon "></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="ml-auto navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contactme.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <ul class="ml-auto navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link home" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link project" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link contact" href="contactme.html">Contact</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
 
 
-        <div class="container contactDiv">
+    <div class="container contactDiv">
 
-            <div class="row">
+        <div class="row">
 
-                <!--Grid column-->
-                <div class="col ">
-                    <h2 class="h1-responsive font-weight-bold text-left my-4">Contact me :)</h2>
-                    <p class="text-left">Inquires, suggestions, freelances..</p>
+            <!--Grid column-->
+            <div class="col ">
+                <h2 class="text-left my-4">Contact me</h2>
 
 
-                    <!--Grid row-->
-                    <div class="row">
 
-                        <!--Grid column-->
-                        <div class="col-md-6">
-                            <div class="md-form ">
-                                <input type="text" id="name" name="name" class="form-control">
-                                <label for="name" class="">Your name</label>
-                            </div>
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form ">
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Name">
+                            <label for="name" class=""></label>
                         </div>
-                        <!--Grid column-->
                     </div>
 
-                    <div class="row">
 
-                        <!--Grid column-->
-                        <div class="col-md-6">
-                            <div class="md-form mb-0">
-                                <input type="text" id="email" name="email" class="form-control">
-                                <label for="email" class="">Your email</label>
-                            </div>
+                    <!--Grid column-->
+                </div>
+
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control" placeholder="E-mail">
+                            <label for="email" class=""></label>
                         </div>
-
-
-
-                        <!--Grid column-->
-
                     </div>
-                    <!--Grid row-->
 
-
-                    <!--Grid row-->
-                    <div class="row">
-
-                        <!--Grid column-->
-                        <div class="col-md-6">
-
-                            <div class="md-form">
-                                <textarea type="text" id="message" name="message" rows="6"
-                                    class="form-control md-textarea "></textarea>
-                                <label for="message">Your message</label>
-
-                            </div>
-                            <button>Submit</button>
-
-
-
-                        </div>
-                        <div class="col-md-4 justify-content-betwwen text-center">
-                            <ul class="list-unstyled ">
-                                <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                                    <p>Phoenix, AZ 85013, USA</p>
-                                </li>
-
-
-                                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                                    <p>montorcibelle@gmail.com</p>
-                                </li>
-                            </ul>
-                        </div>
-
-
-                    </div>
-                    <!--Grid row-->
 
 
 
@@ -123,23 +79,74 @@
 
 
 
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+
+                        <div class="md-form">
+                            <textarea placeholder="Your message" type="text" id="message" name="message" rows="6"
+                                class="form-control md-textarea "></textarea>
+                            <label for="text" class=""></label>
+
+
+                        </div>
+                        <button>Submit</button>
+
+
+                    </div>
+
+
+                    <div class=" iconContactDiv  col-md-4 justify-content-betwwen text-center">
+                        <ul class="  list-unstyled ">
+                            <li><i class=" contactIcons fas fa-map-marker-alt fa-2x"></i>
+                                <p>Phoenix, AZ 85013, USA</p>
+                            </li>
+
+
+                            <li><i class=" contactIcons fas fa-envelope mt-4 fa-2x"></i>
+                                <p>montorcibelle@gmail.com</p>
+                            </li>
+
+
+                            <li> <button class="download hover" type="submit" onclick="window.open('resume.pdf')"> my
+                                    Resume</button></li>
+                        </ul>
+                    </div>
+
+
+
+                </div>
+                <!--Grid row-->
+                <div>
+
+                </div>
+
+
+
+
             </div>
 
+
+
+
         </div>
 
-
-        <div>
-            <footer class="footer contactFooter  ">
-                <span class="icons"> <a href="https://github.com/cibellem"><i class="fab fa-github"></i></a></span>
-                <span class="icons"> <a href="https://twitter.com/cibelle_montor"><i
-                            class="fab fa-twitter"></i></a></span>
-                <span class="icons"> <a href="https://www.linkedin.com/in/cibelle-montor-2a1a58157"><i
-                            class="fab fa-linkedin-in"></i></a></span>
-            </footer>
-        </div>
+    </div>
 
 
-        <script src="https://kit.fontawesome.com/9b22d73af0.js" crossorigin="anonymous"></script>
-    </body>
+    <div>
+        <footer class="footer contactFooter  ">
+            <span class="icons"> <a href="https://github.com/cibellem"><i class="fab fa-github"></i></a></span>
+            <span class="icons"> <a href="https://twitter.com/cibelle_montor"><i class="fab fa-twitter"></i></a></span>
+            <span class="icons"> <a href="https://www.linkedin.com/in/cibelle-montor-2a1a58157"><i
+                        class="fab fa-linkedin-in"></i></a></span>
+        </footer>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/9b22d73af0.js" crossorigin="anonymous"></script>
+</body>
 
 </html>
