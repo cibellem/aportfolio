@@ -3,9 +3,9 @@
 ### Portfolio
 
 Hey there! This is my Portfolio. 
-Check it out! :four_leaf_clover:
+Check it out! 
 ### Link
 
-https://cibellem.github.io/aportfolio/
+:four_leaf_clover: https://cibellem.github.io/aportfolio/
 
 
