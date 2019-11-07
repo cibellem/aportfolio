@@ -42,13 +42,14 @@ p {
    /* padding: 50px; */
     letter-spacing: 1.5px;    
     text-align: justify;
-    margin-top: 5px;   
-    
-    
+    margin-top: 5px;       
     
 
 }
-
+.projectsCol {
+    text-align: center;
+  }
+ 
 .projecth1 {
     background-color: #F97F51;
     padding: 10px;;
@@ -163,7 +164,7 @@ p {
   
       }
 
-        
+      
      
    
  
