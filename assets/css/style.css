@@ -1,79 +1,135 @@
+body{
+    height: 100vh;
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+
+
 .navBar {
   
+  
     background-color:white;
-    font-family: 'Overpass Mono', monospace;
-    letter-spacing: 2px;
-    justify-content: space-around
+    font-family:'Monoton', cursive;
+    letter-spacing: 0.5px;
+    justify-content: space-around;
+    font-size: 20px;
     
    
 }
 
+.nav-link{
+    color: #063b00 !important;
+}
 
 .heyThere{
     
     background-color:white;
-    height: 50vh;
-    text-align: center;   
-    font-family: 'Overpass Mono', monospace;    
+    height:40vh; 
+    color: black;
+ 
+ 
   
 }
 
-
-
-h1 {
-    font-size: 55px;
+.intro{
+    font-family:'Monoton', cursive;
+    letter-spacing: 0.5px;
+    
+    font-size: 57px;
     display: inline-block;
     margin-top: 60px;   
-    font-family: 'Overpass Mono', monospace;  
-}
-
-h2 , label{
-    font-family: 'Overpass Mono', monospace;  
+  
 
 }
+.projects{
+    font-family:'Monoton', cursive;
 
-p {
-    font-family:'Comfortaa', cursive;
+}
+ .projectName{
+     font-size: 30px;
+     letter-spacing: 0;
+
+    font-family: 'Montserrat', sans-serif;
+
+ }
+
+
+
+ .aboutME {
+     margin-top: 30px;
+         padding: 25px;
+
+ }
+.aboutME  {
+    line-height: 35px;
+
+    box-shadow: 15px 0px 16px 1px rgba(12, 0, 0, 0.8);
+    
+    border-radius: 25px;
+}
+p.aboutME{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    font-weight: lighter;
 }
 
-.aboutMe{
-    font-family: 'Comfortaa', cursive;
-    background-color:#F97F51;
-   /* padding: 50px; */
-    letter-spacing: 1.5px;    
-    text-align: justify;
-    margin-top: 5px;       
+
+
+.aboutmeHead{
+    font-family: 'Monoton', cursive;
+
+}
+
+
+ .bigContainerColored{
+
+    padding: 20px;
+} 
+
+
+.projectsCol {
+   
+    scroll-behavior: smooth;
+    text-align: right;    
+ 
+   
+  }
+ 
+
+
+.indexH3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:200;
     
 
 }
-.projectsCol {
-    text-align: center;
-  }
- 
-.projecth1 {
-    background-color: #F97F51;
-    padding: 10px;;
-} 
+
+
+.fa-thumbtack{
+    color:gray;
+    font-size: 10px;
+   
+}
 .projectDiv {
 
    
-    font-family: 'Comfortaa', cursive;    
+    font-family: 'Monoton', cursive;   
     border-style: solid;
-    border-width: 2px;
-    
-    letter-spacing: 1.5px;  
+    border-width: 2px;    
+      
 }
 
 
- .pleasantlyRow , .weatherRow, .passdwordRow, .projectsRow {
+ .pleasantlyRow , .weatherRow, .passdwordRow, .posysCol, .projectsRow, .burgerRow{
     
     padding-bottom: 50px;    
  }
 
  .myPic {
-
-    height: 300px;
-    width: 300px;     
+ height: 300px;
+    width: 300px;
+   overflow: hidden;
+   
    
      margin-top: 5px; 
     
@@ -83,18 +139,41 @@ p {
  .projectDescription{
 
     text-align: justify;
-    letter-spacing: 2px; 
+    letter-spacing: 0.5px; 
  }
 
  .projectImg{
  
-    width: 100%;
-    
+    width: 60%;    
     height: auto;
-    box-shadow:5px 5px 20px 5px  grey;  
-    border-radius: 5px;
+    box-shadow:5px 5px 20px 5px  rgb(0, 0, 0.7);  
+    border-radius: 20px;
     
  }
+.projectImg:hover{
+
+
+    box-shadow: 0 12px 16px 0 rgba(128, 123, 123, 0.8)
+
+}
+ .home:hover, .project:hover, .contact:hover{
+     
+    box-shadow: 0 12px 16px 0 rgba(128, 123, 123, 0.8);
+    border-radius: 50px;
+
+
+ }
+
+.contactHead{
+    padding: 20px;
+    font-family: 'Monoton', cursive;   
+    letter-spacing: 0.5px;
+}
+/* .github{
+    font-family: 'Monoton', cursive;   
+    box-shadow: 0 12px 16px 0 rgba(128, 123, 123, 0.8);
+} */
+
 
  .contactDiv {
 
@@ -104,26 +183,76 @@ p {
  }
 
 
- footer {
+ .landPageFooter {
      text-align: right;     
      background-color:white;
      padding:10px;
+     position: fixed;  
+     width: 100%;
+     margin-top: 10px;
      
      
  }
+
+
+
   .contactFooter {
     position: fixed;
     width: 100%;
     text-align: right;     
-     background-color:#F97F51;
+     background-color:white;
      padding:10px;
      bottom: 0;    
   }  
+
+  .projectFooter{
+   
+    width: 100%;
+    text-align: right;     
+  
+     padding:10px;
+     bottom: 0; 
+
+  }
+
+
 .contactIcons{
     color: black;
+    font-size: 60px;
+    margin-top: 40px;
+    font-weight: lighter;
 
 }
-  
+.myPic{
+
+    display: block;
+ 
+  margin: 1em auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+  /* border: px  #eee; */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);  
+
+    
+       
+   
+}
+.icons{
+    margin: 0;
+}
+
+
+.email, .location{
+
+font-size: 30px;
+}  
+
+
+
   button {
     background-color: #F97F51;
     border: none;
@@ -143,7 +272,7 @@ p {
 
   button:hover {
       
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24)
+    box-shadow: 0 12px 16px 0 rgba(128, 123, 123, 0.24)
   }
  i {
     font-size: 35px;
@@ -172,9 +301,7 @@ p {
         text-align: left;
     }
 
-    .myPic {
-
-    
+    .myPic {    
         height: auto;
         width: 100%;
         
@@ -182,7 +309,9 @@ p {
      } 
 
      .iconContactDiv {
-         display: none;
+         margin: top;
+        align-content: center;
+        padding: 20px;
      }
 
     .projectImg{
@@ -193,8 +322,10 @@ p {
 
     .indexH3{
 
+
+     font-size: 20px; 
     text-align: justify;
-    letter-spacing: normal;
+   
  }
   
 
