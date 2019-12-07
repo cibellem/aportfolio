@@ -54,16 +54,22 @@ body{
  }
 
 
+.contactPageDiv{
+    margin-top: 50px;
+    box-shadow: 4px 0px 15px 1px rgba(12, 0, 0, 0.8);
+    border-radius: 20px;
 
+
+}
  .aboutME {
      margin-top: 30px;
          padding: 25px;
 
  }
-.aboutME  {
+.aboutME {
     line-height: 35px;
 
-    box-shadow: 15px 0px 16px 1px rgba(12, 0, 0, 0.8);
+    box-shadow: 4px 0px 15px 1px rgba(12, 0, 0, 0.8);
     
     border-radius: 25px;
 }
@@ -166,6 +172,7 @@ p.aboutME{
 
 .contactHead{
     padding: 20px;
+    margin-top: 5px;
     font-family: 'Monoton', cursive;   
     letter-spacing: 0.5px;
 }
@@ -217,9 +224,9 @@ p.aboutME{
 
 
 .contactIcons{
-    color: black;
-    font-size: 60px;
-    margin-top: 40px;
+    color: rgb(240, 230, 230);
+    font-size: 20px;
+   margin-bottom: 15px;
     font-weight: lighter;
 
 }
@@ -241,38 +248,62 @@ p.aboutME{
        
    
 }
-.icons{
+.fa-linkedin-in, .fa-github{
     margin: 0;
+   color: #063b00 !important
+}
+
+.contactParagraph{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: lighter;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+}
+p.contactParagraph {
+font-size: 18px;
+    letter-spacing: 0.5px;
+    font-weight: lighter;
+}
+
+.email, .location{
+color: white;
+font-size: 20px;
+font-family: 'Montserrat', sans-serif;
+font-weight: lighter;
+
+}  
+.emailIcon{
+    color: white !important;
+    font-size: 20px;
+
 }
 
 
-.email, .location{
 
-font-size: 30px;
-}  
-
-
-
-  button {
-    background-color: #F97F51;
+.resumeBttn {
+    background-color:#353635 ;
     border: none;
-    color: black;
-    padding: 10px 30px;
+    color: white;
+    padding: 8px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
-    font-family: 'Overpass Mono', monospace; 
-    border-radius: 10px;
-    letter-spacing: 1px; 
-    box-shadow: 0 12px 16px
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 2px 1px 0 rgb(82, 81, 81);
+    border-radius: 20px;
+    margin-bottom: 5px;
+ 
+   
   }
 
  
 
-  button:hover {
+  .resumeBttn:hover {
       
-    box-shadow: 0 12px 16px 0 rgba(128, 123, 123, 0.24)
+    box-shadow: 0px 5px 5px 0 rgba(8, 8, 8, 0.6);
   }
  i {
     font-size: 35px;
@@ -308,11 +339,11 @@ font-size: 30px;
     
      } 
 
-     .iconContactDiv {
+     /* .iconContactDiv {
          margin: top;
         align-content: center;
         padding: 20px;
-     }
+     } */
 
     .projectImg{
 
