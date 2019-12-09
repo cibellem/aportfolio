@@ -43,6 +43,9 @@ body{
 }
 .projects{
     font-family:'Monoton', cursive;
+    letter-spacing: 0.5px;
+    margin-top: 5px;
+    padding: 20px;
 
 }
  .projectName{
@@ -58,6 +61,7 @@ body{
     margin-top: 50px;
     box-shadow: 4px 0px 15px 1px rgba(12, 0, 0, 0.8);
     border-radius: 20px;
+   
 
 
 }
@@ -105,7 +109,7 @@ p.aboutME{
 
 .indexH3{
     font-family: 'Montserrat', sans-serif;
-    font-weight:200;
+   
     
 
 }
@@ -144,7 +148,7 @@ p.aboutME{
  } 
  .projectDescription{
 
-    text-align: justify;
+    text-align: start;
     letter-spacing: 0.5px; 
  }
 
@@ -173,14 +177,24 @@ p.aboutME{
 .contactHead{
     padding: 20px;
     margin-top: 5px;
+    margin-right: 15px;
     font-family: 'Monoton', cursive;   
     letter-spacing: 0.5px;
 }
-/* .github{
-    font-family: 'Monoton', cursive;   
-    box-shadow: 0 12px 16px 0 rgba(128, 123, 123, 0.8);
-} */
+ .github{
+    font-family: 'Montserrat', sans-serif;  
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 0px 5px 5px 0 rgba(8, 8, 8, 0.6);
+    color: white !important;
+    text-decoration-style: none;
+  
+    
+} 
+.github:hover{
 
+    box-shadow: 0px 5px 5px 0 rgba(71, 70, 70, 0.6);
+}
 
  .contactDiv {
 
@@ -281,7 +295,9 @@ font-weight: lighter;
 }
 
 
-
+.ulFlex{
+    margin-left: auto;
+}
 .resumeBttn {
     background-color:#353635 ;
     border: none;
@@ -299,9 +315,7 @@ font-weight: lighter;
    
   }
 
- 
-
-  .resumeBttn:hover {
+   .resumeBttn:hover {
       
     box-shadow: 0px 5px 5px 0 rgba(8, 8, 8, 0.6);
   }
@@ -315,18 +329,33 @@ font-weight: lighter;
  @media screen and (max-width: 768px) { 
 
     .ulFlex {
-        display: flex;
+display: flex;
   flex-direction: row; 
-  margin: auto;
+ margin: 0;
+  font-size: 20px;
   text-align: justify;
-  letter-spacing: 5px;
-
+  letter-spacing: 2px;
   
+    }
+
+.projectDescription{
+    text-align: justify;
+    letter-spacing: 0.5px;
+
+}
+  
+      .contactRow{
+          width: 100%;
       }
 
-      
+      .intro{
+
+        font-size: 60px;
+      }
      
-   
+   .aboutME{
+     font-size: 30px;
+   }
  
     h3 {
         text-align: left;
@@ -354,8 +383,10 @@ font-weight: lighter;
     .indexH3{
 
 
-     font-size: 20px; 
-    text-align: justify;
+     font-size: 50px; 
+     
+          
+  
    
  }
   
@@ -371,4 +402,37 @@ font-weight: lighter;
         margin-top: 5px; 
         margin-bottom: 15px;;
   }
+
+  .projects{
+    margin-left: 65px;
+    font-size: 40px;
+    margin-top: 5px;
+  }
+
+  .resumeBtn{
+      margin-top: 20px;
+      margin-left: 70px;
+  }
+
+  .fa-paper-plane, .fa-file{
+      visibility: hidden;
+  }
+
+  .emailLink{
+      font-size: 8px;
+      margin-left: 30px;
+      
+  }
+
+  .indexH3{
+      font-size: 20px;
+  }
+
+  .intro{
+
+    font-size: 45px;
+  }
+ .heyThere{
+     width: fit-content
+ }
 }
