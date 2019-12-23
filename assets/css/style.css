@@ -58,9 +58,10 @@ body{
 
 
 .contactPageDiv{
-    margin-top: 50px;
+    margin-top: 100px;
     box-shadow: 4px 0px 15px 1px rgba(12, 0, 0, 0.8);
     border-radius: 20px;
+   margin-left: 180px;
    
 
 
@@ -269,23 +270,24 @@ p.aboutME{
 
 .contactParagraph{
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
     font-weight: lighter;
-    font-size: 18px;
+    font-size: 25px;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 p.contactParagraph {
-font-size: 18px;
-    letter-spacing: 0.5px;
+font-size: 22px;
+    letter-spacing: 1px;
     font-weight: lighter;
 }
 
 .email, .location{
-color: white;
+color: rgb(65, 37, 189);
 font-size: 20px;
 font-family: 'Montserrat', sans-serif;
-font-weight: lighter;
+font-weight: bolder;
+margin-bottom: 5px;
 
 }  
 .emailIcon{
@@ -385,11 +387,22 @@ display: flex;
 
      font-size: 50px; 
      
-          
-  
+           
    
  }
-  
+ p.contactPageDiv{
+     font-size: 18px;
+ }
+ 
+ .contactPageDiv{
+     margin-left: 65px;
+     margin-top: 30px;
+
+ }
+.email{
+    font-size: 15px;
+    padding: 0px;
+}
 
 }
 
@@ -419,8 +432,8 @@ display: flex;
   }
 
   .emailLink{
-      font-size: 8px;
-      margin-left: 30px;
+      
+     
       
   }
 
