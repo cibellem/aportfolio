@@ -1,8 +1,12 @@
 body{
-    height: 100vh;
-    background-color: rgb(48, 48, 48);
+    /* height: 100vh; */
+    background-color:#464646;
+  
     color: white;
 }
+
+  
+
 
 
 .navBar {
@@ -22,8 +26,8 @@ body{
 }
 
 .heyThere{
-    
-    background-color:white;
+    background-color: white;
+  
     height:40vh; 
     color: black;
  
@@ -34,6 +38,7 @@ body{
 .intro{
     font-family:'Monoton', cursive;
     letter-spacing: 0.5px;
+    color: #063b00;
     
     font-size: 57px;
     display: inline-block;
@@ -44,28 +49,27 @@ body{
 .projects{
     font-family:'Monoton', cursive;
     letter-spacing: 0.5px;
-    margin-top: 5px;
-    padding: 20px;
+    margin-top: 30px;
+    margin-right: 450px;
+    
+    color: tan;
+   
 
 }
  .projectName{
      font-size: 30px;
-     letter-spacing: 0;
+     letter-spacing: 0.5;
+     color: tan;
+     font-weight: 600;
+    
+     
 
     font-family: 'Montserrat', sans-serif;
 
  }
 
 
-.contactPageDiv{
-    margin-top: 100px;
-    box-shadow: 4px 0px 15px 1px rgba(12, 0, 0, 0.8);
-    border-radius: 20px;
-   margin-left: 180px;
-   
 
-
-}
  .aboutME {
      margin-top: 30px;
          padding: 25px;
@@ -110,6 +114,9 @@ p.aboutME{
 
 .indexH3{
     font-family: 'Montserrat', sans-serif;
+    color: #464646;
+    letter-spacing: 0;
+    font-size: 22px;
    
     
 
@@ -148,23 +155,31 @@ p.aboutME{
 
  } 
  .projectDescription{
+    margin-top: 11px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0;
 
-    text-align: start;
-    letter-spacing: 0.5px; 
+  
+    
+   
  }
+
 
  .projectImg{
  
     width: 60%;    
     height: auto;
-    box-shadow:5px 5px 20px 5px  rgb(0, 0, 0.7);  
-    border-radius: 20px;
+    box-shadow: 2px 2px 6px black;
+    border-radius: 5px;
+    margin-left: 200px;
+   
     
  }
 .projectImg:hover{
 
 
-    box-shadow: 0 12px 16px 0 rgba(128, 123, 123, 0.8)
+    box-shadow: 1px 3px 12px 3px rgb(17, 17, 17)
 
 }
  .home:hover, .project:hover, .contact:hover{
@@ -192,6 +207,12 @@ p.aboutME{
   
     
 } 
+.hint {
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+ 
+}
 .github:hover{
 
     box-shadow: 0px 5px 5px 0 rgba(71, 70, 70, 0.6);
@@ -257,7 +278,7 @@ p.aboutME{
   -moz-border-radius: 99em;
   border-radius: 99em;
   /* border: px  #eee; */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);  
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);   */
 
     
        
@@ -265,29 +286,43 @@ p.aboutME{
 }
 .fa-linkedin-in, .fa-github{
     margin: 0;
-   color: #063b00 !important
+   color: blue !important
 }
 
 .contactParagraph{
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 1px;
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;  
     font-weight: lighter;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
-    margin-top: 10px;
+  
+
 }
-p.contactParagraph {
-font-size: 22px;
-    letter-spacing: 1px;
-    font-weight: lighter;
+.emailLink{
+    margin-top: 0;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;  
+}
+.contactParagraphDiv{
+   height: 200px;
+}
+
+.contactPageDiv{
+ 
+ 
+   margin-left: 180px;
+   
+
+
 }
 
 .email, .location{
-color: rgb(65, 37, 189);
-font-size: 20px;
+color: tan;
+font-size: 25px;
 font-family: 'Montserrat', sans-serif;
-font-weight: bolder;
-margin-bottom: 5px;
+font-weight: 600;
+margin-bottom: 3px;
+letter-spacing: 0.5;
 
 }  
 .emailIcon{
@@ -342,7 +377,8 @@ display: flex;
 
 .projectDescription{
     text-align: justify;
-    letter-spacing: 0.5px;
+    font-family: 'Montserrat', sans-serif;
+   
 
 }
   
